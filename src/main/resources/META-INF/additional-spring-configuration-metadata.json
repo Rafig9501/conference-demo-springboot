@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.jpa.hibernate.show-sql",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.hibernate.show-sql."
+    },
+    {
+      "name": "server",
+      "type": "java.lang.String",
+      "description": "Description for server."
+    },
+    {
+      "name": "app.version",
+      "type": "java.lang.String",
+      "description": "Description for app.version."
+    }
+  ] }
