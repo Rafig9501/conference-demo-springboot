@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("api/v1/session")
+@RequestMapping("api/v1/sessions")
 public class SessionController {
 
     private final SessionRepository sessionRepository;

@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Stack;
 
 @RestController
-@RequestMapping("api/v1/speaker")
+@RequestMapping("api/v1/speakers")
 public class SpeakerController {
 
     private final SpeakerRepository speakerRepository;
