@@ -24,6 +24,7 @@ public class SessionController {
 
     @GetMapping
     public List<SessionModel> getAll() {
+        //get all
         return sessionService.getAll();
     }
 
