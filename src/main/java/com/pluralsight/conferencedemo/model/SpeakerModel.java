@@ -18,7 +18,8 @@ public class SpeakerModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long speaker_id;
+    @Column(name = "speaker_id")
+    private Long speakerId;
 
     @Lob
     @Type(type = "org.hibernate.type.BinaryType")
